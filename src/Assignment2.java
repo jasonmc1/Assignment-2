@@ -4,7 +4,7 @@
   import java.io.File;
   import java.util.Collections;
   import java.util.Queue;
-/* A node represents an artist */
+
  class Song {
     //instantiates limited array, with 10 elements being up to change
     public Song(String name, String[] line){
