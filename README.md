@@ -8,6 +8,13 @@ Song: where all the data is read in
 Playlist: where the user can access the data from the sorted queue (has an interface the user answers when prompted)
 
 
+File 1: regional-global-daily-latest.csv
+
+File 2: regional-global-weekly-2020-01-17--2020-01-24.csv
+
+File 3: newFile.txt. will be created once program runs
+
+
 Important Methods/Variables:
 
 public static Song read(Scanner scanner): used to read in files' data
@@ -17,9 +24,6 @@ Queue<String> sorted: where the sorted data is
 PrintWriter writer: file with merged data of the latest data and January's data
 
 
-File 1: regional-global-daily-latest.csv
-
-File 2: regional-global-daily-2020-01-17--2020-01-24.csv
 
 
 Sample Output (where user enters add a song then quits):
